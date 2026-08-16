@@ -1,0 +1,9 @@
+Feature,Coefficient
+pressure_bar,0.2528420892334911
+salinity_g_L,0.00232377493392031
+feed_flow_m3_h,0.0017803248372490754
+temperature_C,0.0006429173538596115
+membrane_condition,0.0003613249178943019
+erd_efficiency,-0.10864187539702126
+recovery_rate_target,-0.2815521405559878
+pump_efficiency,-0.2992091798960478
