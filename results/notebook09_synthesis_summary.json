@@ -1,0 +1,35 @@
+{
+  "baseline_best_model": "MLP",
+  "baseline_rmse_val": 0.115368,
+  "optimized_best_model": "MLP",
+  "optimized_rmse_test": 0.113165,
+  "optimized_r2_test": 0.95303,
+  "shap_top3_features": [
+    "pump_efficiency",
+    "recovery_rate_target",
+    "pressure_bar"
+  ],
+  "shap_top3_relative_importance_pct": 86.2,
+  "optimization_trajectory": {
+    "NB06_07_raw_ml_optimum_gain_pct": 34.43,
+    "NB08_robust_optimum_gain_pct": 36.1,
+    "NB08_mahalanobis": 3.76,
+    "NB08_mahalanobis_threshold": 3.758,
+    "NB09_physical_ml_optimum_gain_pct": 20.03,
+    "NB09_mahalanobis": 1.744,
+    "NB09_mahalanobis_threshold": 3.509,
+    "NB09_ml_local_abs_error_kwh_m3": 0.001012
+  },
+  "recommended_configuration": {
+    "pressure_bar": 58.931646472748994,
+    "feed_flow_m3_h": 664.1800354566076,
+    "salinity_g_L": 38.15164065600431,
+    "temperature_C": 23.227673512822477,
+    "recovery_rate_target": 0.41062243295279033,
+    "pump_efficiency": 0.8761178019603205,
+    "erd_efficiency": 0.9003409465854092,
+    "membrane_condition": 0.8562897493441359
+  },
+  "recommended_sec_kwh_m3": 2.844422873348578,
+  "external_validation_plausibility_score_pct": 70.7
+}
