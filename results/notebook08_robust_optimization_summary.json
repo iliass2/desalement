@@ -1,0 +1,73 @@
+{
+  "summary": [
+    {
+      "configuration": "Reference médiane",
+      "SEC_base": 3.5558006128578072,
+      "Mahalanobis": 0.020528613198552214,
+      "SEC_mean_MC": 3.56031608888216,
+      "SEC_P05_MC": 3.3773122566900033,
+      "SEC_P95_MC": 3.751329114632608,
+      "SEC_std_MC": 0.1137068296784347,
+      "P95_Mahalanobis": 0.8502938736715182,
+      "gain_SEC_base_pct": 0.0,
+      "gain_SEC_mean_MC_pct": 0.0,
+      "gain_SEC_P95_MC_pct": 0.0
+    },
+    {
+      "configuration": "Optimum ML contraint",
+      "SEC_base": 2.271918761708473,
+      "Mahalanobis": 3.758596725872275,
+      "SEC_mean_MC": 2.334245158866132,
+      "SEC_P05_MC": 2.271752448695823,
+      "SEC_P95_MC": 2.4258956969443664,
+      "SEC_std_MC": 0.04910231341149046,
+      "P95_Mahalanobis": 3.8432055985172666,
+      "gain_SEC_base_pct": 36.10668850516549,
+      "gain_SEC_mean_MC_pct": 34.43713702400452,
+      "gain_SEC_P95_MC_pct": 35.33236826697489
+    },
+    {
+      "configuration": "Optimum robuste",
+      "SEC_base": 2.272185257041266,
+      "Mahalanobis": 3.7584341783935162,
+      "SEC_mean_MC": 2.333935914579925,
+      "SEC_P05_MC": 2.2715897638403417,
+      "SEC_P95_MC": 2.427050405512215,
+      "SEC_std_MC": 0.049292778822181714,
+      "P95_Mahalanobis": 3.836556157522659,
+      "gain_SEC_base_pct": 36.09919384048072,
+      "gain_SEC_mean_MC_pct": 34.44582289004806,
+      "gain_SEC_P95_MC_pct": 35.3015869483392
+    }
+  ],
+  "candidates": [
+    {
+      "configuration": "Optimum ML contraint",
+      "SEC_base": 2.271918761708473,
+      "SEC_mean_MC": 2.334481372313831,
+      "SEC_P95_MC": 2.4269738332508624,
+      "Mahalanobis": 3.758596725872275,
+      "P95_Mahalanobis": 3.8383929776719263
+    },
+    {
+      "configuration": "Optimum robuste",
+      "SEC_base": 2.272185257041266,
+      "SEC_mean_MC": 2.333935914579925,
+      "SEC_P95_MC": 2.427050405512215,
+      "Mahalanobis": 3.7584341783935162,
+      "P95_Mahalanobis": 3.836556157522659
+    }
+  ],
+  "mahalanobis_threshold": 3.7582223635937746,
+  "recommended_configuration": "Optimum ML contraint",
+  "features": [
+    "pressure_bar",
+    "feed_flow_m3_h",
+    "salinity_g_L",
+    "temperature_C",
+    "recovery_rate_target",
+    "pump_efficiency",
+    "erd_efficiency",
+    "membrane_condition"
+  ]
+}

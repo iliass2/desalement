@@ -1,0 +1,121 @@
+{
+  "model_metrics": [
+    {
+      "metric": "MAE",
+      "value": 0.08701306210770142
+    },
+    {
+      "metric": "RMSE",
+      "value": 0.11001740377627235
+    },
+    {
+      "metric": "R2",
+      "value": 0.9536541295186676
+    }
+  ],
+  "comparison": [
+    {
+      "configuration": "Référence médiane",
+      "SEC_ML": 3.5558006128578072,
+      "SEC_mean_MC": 3.5599187005772968,
+      "SEC_P95": 3.7542551112717266,
+      "Mahalanobis": 0.020528613198552214,
+      "SEC_empirical_local": 3.551131210487994,
+      "ML_local_abs_error": 0.00466940236981328,
+      "gain_SEC_mean_pct": 0.0,
+      "gain_SEC_P95_pct": 0.0
+    },
+    {
+      "configuration": "Candidat physique + ML",
+      "SEC_ML": 2.844422873348578,
+      "SEC_mean_MC": 2.847009053015196,
+      "SEC_P95": 2.9889072695428007,
+      "Mahalanobis": 1.743721313183997,
+      "SEC_empirical_local": 2.845434728234293,
+      "ML_local_abs_error": 0.001011854885714758,
+      "gain_SEC_mean_pct": 20.026009230112223,
+      "gain_SEC_P95_pct": 20.386143696816326
+    }
+  ],
+  "sensitivity": [
+    {
+      "scenario": "energie_prioritaire",
+      "W_SEC": 0.7,
+      "W_CONSISTENCY": 0.15,
+      "W_DOMAIN": 0.05,
+      "W_RISK": 0.1,
+      "optimization_success": false,
+      "objective": 0.6021722267271665,
+      "SEC_ML": 2.6989365886955583,
+      "SEC_empirical_local": 2.7481685818431014,
+      "ML_local_abs_error": 0.04923199314754312,
+      "Mahalanobis": 2.3113342071677216,
+      "SEC_P95": 2.8350953897890805,
+      "Mahalanobis_exceedance": 0.0
+    },
+    {
+      "scenario": "equilibre",
+      "W_SEC": 0.45,
+      "W_CONSISTENCY": 0.3,
+      "W_DOMAIN": 0.1,
+      "W_RISK": 0.15,
+      "optimization_success": false,
+      "objective": 0.45090279045303755,
+      "SEC_ML": 2.8067949876987157,
+      "SEC_empirical_local": 2.8075901955245386,
+      "ML_local_abs_error": 0.0007952078258228745,
+      "Mahalanobis": 1.9971220133336531,
+      "SEC_P95": 2.9465446311870958,
+      "Mahalanobis_exceedance": 0.0
+    },
+    {
+      "scenario": "physique_prioritaire",
+      "W_SEC": 0.25,
+      "W_CONSISTENCY": 0.55,
+      "W_DOMAIN": 0.1,
+      "W_RISK": 0.1,
+      "optimization_success": false,
+      "objective": 0.2753502156617811,
+      "SEC_ML": 2.9147169998527227,
+      "SEC_empirical_local": 2.91471699386854,
+      "ML_local_abs_error": 5.984182482876577e-09,
+      "Mahalanobis": 1.5219717345178392,
+      "SEC_P95": 3.062911993640634,
+      "Mahalanobis_exceedance": 0.0
+    }
+  ],
+  "candidate_features": {
+    "pressure_bar": 58.931646472748994,
+    "feed_flow_m3_h": 664.1800354566076,
+    "salinity_g_L": 38.15164065600431,
+    "temperature_C": 23.227673512822477,
+    "recovery_rate_target": 0.41062243295279033,
+    "pump_efficiency": 0.8761178019603205,
+    "erd_efficiency": 0.9003409465854092,
+    "membrane_condition": 0.8562897493441359
+  },
+  "candidate_sec_ml": 2.844422873348578,
+  "candidate_local_empirical_sec": 2.845434728234293,
+  "candidate_mahalanobis": 1.743721313183997,
+  "mahalanobis_threshold": 3.508839629930282,
+  "final_stats": {
+    "SEC_base_ML": 2.844422873348578,
+    "SEC_mean_MC": 2.847009053015196,
+    "SEC_median_MC": 2.8458386512598075,
+    "SEC_std_MC": 0.08537913299125086,
+    "SEC_P05_MC": 2.7074252689244394,
+    "SEC_P95_MC": 2.9889072695428007,
+    "SEC_max_MC": 3.2044890698334254,
+    "Mahalanobis_base": 1.743721313183997,
+    "Mahalanobis_P95": 2.1947569108258618,
+    "Mahalanobis_exceedance": 0.0,
+    "Local_SEC_empirical": 2.845434728234293,
+    "ML_Local_abs_error": 0.001011854885714758
+  },
+  "criteria": {
+    "dans_domaine_Mahalanobis": true,
+    "erreur_ML_locale": true,
+    "risque_domaine": true,
+    "gain_SEC_moyenne_positif": true
+  }
+}
