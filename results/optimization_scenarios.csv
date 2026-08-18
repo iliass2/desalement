@@ -1,0 +1,4 @@
+Scenario,Predicted_SEC_kWh_m3
+Baseline median,3.556845713031128
+ML optimum,2.206382422852499
+Robust optimum,2.206382422852499

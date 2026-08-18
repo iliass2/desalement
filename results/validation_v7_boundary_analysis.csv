@@ -1,0 +1,17 @@
+Scenario,Feature,Value,Distance_Min_%,Distance_Max_%,Near_Boundary
+ML_Global_Optimum,pressure_bar,55.0,0.0,99.99999999999332,True
+ML_Global_Optimum,feed_flow_m3_h,1000.0,99.99999999999987,0.0,True
+ML_Global_Optimum,salinity_g_L,42.0,99.9999999999875,0.0,True
+ML_Global_Optimum,temperature_C,15.0,0.0,99.99999999999332,True
+ML_Global_Optimum,recovery_rate_target,0.45,99.99999999933334,0.0,True
+ML_Global_Optimum,pump_efficiency,0.8999909544068578,99.99396960390524,0.006030395428084687,True
+ML_Global_Optimum,erd_efficiency,0.9599503803817664,99.9689877379792,0.03101226139579131,True
+ML_Global_Optimum,membrane_condition,0.7500325028176991,0.01300112707957397,99.98699887252045,True
+ML_Robust_Optimum,pressure_bar,55.0,0.0,99.99999999999332,True
+ML_Robust_Optimum,feed_flow_m3_h,1000.0,99.99999999999987,0.0,True
+ML_Robust_Optimum,salinity_g_L,42.0,99.9999999999875,0.0,True
+ML_Robust_Optimum,temperature_C,15.0,0.0,99.99999999999332,True
+ML_Robust_Optimum,recovery_rate_target,0.45,99.99999999933334,0.0,True
+ML_Robust_Optimum,pump_efficiency,0.8999909544068578,99.99396960390524,0.006030395428084687,True
+ML_Robust_Optimum,erd_efficiency,0.9599503803817664,99.9689877379792,0.03101226139579131,True
+ML_Robust_Optimum,membrane_condition,0.7500325028176991,0.01300112707957397,99.98699887252045,True

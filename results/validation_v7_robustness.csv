@@ -1,0 +1,10 @@
+Metric,Value
+SEC_reference_physical,3.566367432737948
+SEC_ML_global_physical,2.3383287727769972
+SEC_ML_robust_physical,2.3383287727769972
+Gain_global_physical_percent,34.433879377879165
+Gain_robust_physical_percent,34.433879377879165
+Robust_physical_mean,2.3529736688119782
+Robust_physical_std,0.011845947042944994
+Robust_physical_min,2.338216735253771
+Robust_physical_max,2.413342966946625

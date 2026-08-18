@@ -1,0 +1,9 @@
+feature
+pressure_bar
+feed_flow_m3_h
+salinity_g_L
+temperature_C
+recovery_rate_target
+pump_efficiency
+erd_efficiency
+membrane_condition
